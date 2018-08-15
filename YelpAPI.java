@@ -26,8 +26,8 @@ public class YelpAPI {
 
 	
 	private static final String TOKEN_HOST = "https://api.yelp.com/oauth2/token";
-	private static final String CLIENT_ID = "HKs9FbeUmyIFyy9VQ1IPLw";
-	private static final String CLIENT_SECRET = "WixPcb9DEhHgRrJKo32R4FlkGws216vbyi5SqHMeHON0AD_14kf-xqk9H_3DaOMZ0YaWLLc7BNQIC6rXU4igBBRlxX72wO64DFj8udy6mR0ssUFylTt0SKG5wQwJWnYx";
+	private static final String CLIENT_ID = "SECRET";
+	private static final String CLIENT_SECRET = "SECRET";
 	private static final String GRANT_TYPE = "client_credentials";
 	private static final String TOKEN_TYPE = "Bearer";
 
@@ -108,7 +108,7 @@ public class YelpAPI {
 	      // connection.setRequestProperty("Authorization", TOKEN_TYPE + " " + getAccessToken());
 	
 	      // With just API Keys the process to authenticate (starting March 1, 2018)
-	      connection.setRequestProperty("Authorization", "Bearer WixPcb9DEhHgRrJKo32R4FlkGws216vbyi5SqHMeHON0AD_14kf-xqk9H_3DaOMZ0YaWLLc7BNQIC6rXU4igBBRlxX72wO64DFj8udy6mR0ssUFylTt0SKG5wQwJWnYx");
+	      connection.setRequestProperty("Authorization", "Bearer SECRET");
 	      
 	      int responseCode = connection.getResponseCode();
 	      System.out.println("\nSending 'GET' request to URL : " + url + "?" + query);
@@ -200,8 +200,6 @@ public class YelpAPI {
 	    }
 	    return list;
 	  }
-
-	  
 	  
 	  /**
 	   * Main entry for sample Yelp API requests.
