@@ -8,7 +8,6 @@ So the difference with Yelp: Oishii APP can provide personalization recommendati
 
 Here is the basic structure of these codes:
 // Recommendation based on GEO distance and similar categories.
-
 package algorithm:
 	GeoRecommendation.java
 
