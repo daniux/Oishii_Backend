@@ -37,3 +37,9 @@ package rpc:
 	RpcHelper.java
 	SearchItem.java
 	
+
+Implementaion Level:
+	API
+	Show items near your location
+	Set favorite items
+	Recommend new items
