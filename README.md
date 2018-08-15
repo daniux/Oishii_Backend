@@ -8,24 +8,29 @@ So the difference with Yelp: Oishii APP can provide personalization recommendati
 
 Here is the basic structure of these codes:
 // Recommendation based on GEO distance and similar categories.
+
 package algorithm:
 	GeoRecommendation.java
 
 // Database connection with MYSQL db.
+
 package db:
 	MySQLConnection.java
 	MySQLDBUtil.java
 	MySQLTableCreation.java
 	
 // Detail instance definition of item (restaurant here).
+
 package entity:
 	Item.java
 
 // Connection with external API.
+
 package external;
 	YelpAPI.java
 	
 // Remote Procedure Call for different Servlets.
+
 package rpc:
 	ItemHistory.java
 	Recommendation.java
