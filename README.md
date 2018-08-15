@@ -37,3 +37,5 @@ Implementaion Level:<br/>
 	Show items near your location<br/>
 	Set favorite items<br/>
 	Recommend new items<br/>
+<br/>
+10/10/2018
